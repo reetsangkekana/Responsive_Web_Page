@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Metal Stem</title>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/releases/v5.15/css/all.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awsome/4.1.0/css/font-awsome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/66ee33d689.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+         <a href="index.html"><img src="logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"> </i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES WE OFFER</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+          </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>METAL STEM</h1>
+        <p>Your Ultimate Energy and Surveillance Solutions</p>
+        <a href="contact.html" class="hero-btn">Visit Us To Know More</a>
+    </div>
+
+    </section>
+
+
+
+     <!---Services---->
+     <section class="services">
+        <h1>Services We Offer</h1>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Solar Panel Installation & Maintenence</h3>
+                <p>The unreliable energy supply by Eskom has led society to look for alternatives source of renewable
+                    energy. Solar energy is key to future economic growth and its impact will be huge It is our vision to
+                    promote sustainability in our community through the designs and installation of renewable energy,
+                    in the form of Solar efficiency systems.<br>
+                    -Solar Energy efficiency Systems are becoming cost-effective.<br>-Power is guaranteed<br>-
+                    By Installing Solar Energy Systems you increase the value of your property.<br>-
+                    Rise in electricity costs is no longer your major concern.<br>-
+                    You will have power when load-shedding occurs.<br>-
+                    You are assured of reliable energy for more than 20 years.
+                </p>
+            </div>
+            <div class="service-col">
+                <h3>CCTV Installation & Maintenence</h3>
+                <p>CCTV is one of the most cost-effective security systems which was mostly installed in businesses but
+                    recently homeowners have begun to install CCTV in their homes. We use a highly qualified and
+                    trained team for the design, supply, and installation of CCTV. Our systems can be accessed wirelessly
+                    and on remote sites.<br>-Insurance Deductions<br>-
+                    Criminals usually avoid homes with visible surveillance systems<br>-Cost Effective & Easy to Maintain<br>-
+                    Helps in identifying Criminals
+                </p>
+            </div>
+
+        </div>
+
+     </section>
+
+
+     <!----------Details-->
+
+     <section class="details">
+        <h1>Get In Touch<br> With Us</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+
+     </section>
+
+      <!-----About us---->
+    <section class="footer">
+
+        <div class="para">
+            <h4>
+                Metal Stem<br>
+                Your Ultimate Energy and Surveillance Solutions
+            </h4>
+        </div>
+        <p>Website Designed by SikkNature</p>
+    </section>
+
+
+    <!---JavaScipt for menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+</body>
+</html>
